@@ -19,10 +19,10 @@ class Staff {
         return console.log(` Ông ${this.getFullname()} có email là ${this.getEmail()}`);
     }
 }
-let staff = new Staff("David", "david@gmail.com")
-staff.setFullname("David Do");
-staff.setEmail("david.do@gmail.com");
-staff.toString();
+let david = new Staff("David", "david@gmail.com")
+david.setFullname("David Do");
+david.setEmail("david.do@gmail.com");
+david.toString();
 let staffs = [
     new Staff("Tony", "tony@gmail.com"),
     new Staff("Gary", "gary@gmail.com"),
