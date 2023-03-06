@@ -1,4 +1,4 @@
-function fivePTB2(a, b, c) {
+function timPTB2(a, b, c) {
     let delta = b * b - 4 * a * c;
     if (delta < 0) {
         console.log("phương trình vô nghiệm")
@@ -13,5 +13,5 @@ function fivePTB2(a, b, c) {
         console.log(`Phương trình có 2 nghiệm x1 = ${x1}, x2 = ${x2}`);
     }
 }
-fivePTB2(8, 12, -20)
+timPTB2(8, 12, -20)
 
